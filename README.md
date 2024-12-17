@@ -21,21 +21,25 @@ SQL Basics for Beginners: Must-Know Concepts
    - SELECT Statement: Used to retrieve data from a database.
     
   Example
+  
      SELECT column1, column2 FROM table_name;
      
    - WHERE Clause: Filters data based on conditions.
 
 Example
+
      SELECT * FROM table_name WHERE condition;
      
    - ORDER BY: Sorts data in ascending (ASC) or descending (DESC) order.
     
 Example
+
       SELECT column1, column2 FROM table_name ORDER BY column1 ASC;
      
    - LIMIT: Limits the number of rows returned.
     
  Example
+ 
      SELECT * FROM table_name LIMIT 5;
      
 ## Filtering Data with WHERE Clause  
@@ -49,6 +53,7 @@ Example
    - =: Equal to
    - >: Greater than
    - <: Less than
+   - > Greater than 
    - LIKE: For pattern matching
 
 ## Aggregating Data  
@@ -62,16 +67,19 @@ Example
    - SUM(): Adds up values in a column.
     
 Example
+
     SELECT SUM(salary) FROM employees;
      
    - AVG(): Calculates the average value.
     
 Example
+
      SELECT AVG(salary) FROM employees;
      
    - GROUP BY: Groups rows that have the same values into summary rows.
     
 Example
+
      SELECT department, AVG(salary) FROM employees GROUP BY department;
      
 ## Joins in SQL  
@@ -79,6 +87,7 @@ Example
    - INNER JOIN: Retrieves records with matching values in both tables.
     
 Example
+
      SELECT employees.name, departments.department
      FROM employees
      INNER JOIN departments
@@ -87,6 +96,7 @@ Example
    - LEFT JOIN: Retrieves all records from the left table and matched records from the right table.
 
 Example
+
      SELECT employees.name, departments.department
      FROM employees
      LEFT JOIN departments
@@ -96,6 +106,7 @@ Example
    To add new data to a table, you use the INSERT INTO statement:
   
 Example
+
    INSERT INTO employees (name, position, salary) VALUES ('John Doe', 'Analyst', 60000);
    
 ## Updating Data
