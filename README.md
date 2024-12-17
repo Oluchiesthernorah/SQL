@@ -51,9 +51,8 @@ Example
    
    You can use comparison operators like:
    - =: Equal to
-   - >: Greater than
    - <: Less than
-   - > Greater than 
+   - >: Greater than 
    - LIKE: For pattern matching
 
 ## Aggregating Data  
