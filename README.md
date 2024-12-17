@@ -42,6 +42,7 @@ Example
    The WHERE clause helps you filter data based on a condition:
   
 Example
+
    SELECT * FROM employees WHERE salary > 50000;
    
    You can use comparison operators like:
@@ -55,6 +56,7 @@ Example
    - COUNT(): Counts the number of rows.
 
 Example
+
      SELECT COUNT(*) FROM table_name;
      
    - SUM(): Adds up values in a column.
